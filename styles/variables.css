@@ -6,26 +6,32 @@
 :root {
   --page-background-color: #000028;
   --page-background-image: url("../images/cover-image-dark.png");
-  --text-color: #f1b2ce;
+  --text-color: #ebbbd4;
   --heading-color: #ff0070;
   --accent-color: #ff0070;
   --accent-text-color: #000028;
-  --title-color: #db00ff;
-  --footer-title-shadow-color: #ff0070;
+  --title-color: #dc00ff;
+  --title-shadow-color: #ff0070;
   --font-family-base: "IBM Plex mono", monospace;
   --font-size-base: 1.125rem;
   --line-height-base: 1.3;
-  --page-padding-inline: 10px;
+  --page-padding: 10px;
+  --content-padding-block: 40px;
+  --section-gap: 46px;
   --block-gap: 20px;
   --card-gap: 10px;
-  --section-gap: 60px;
+  --gallery-gap: 10px;
+  --corner-size: 24px;
   --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --screen-min-height: 668px;
 }
 
 @media (width >= 768px) {
   :root {
-    --page-padding-inline: 20px;
+    --page-padding: 20px;
+    --content-padding-block: 60px;
+    --section-gap: 80px;
+    --gallery-gap: 20px;
     --title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --screen-min-height: 1024px;
   }
